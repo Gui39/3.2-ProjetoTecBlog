@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #FACC2E;
+}
+a:hover {
+	text-decoration: underline;
+}
+#cabecalho a:link, #cabecalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+#cabecalho a:hover {
+	background: #FFF;
+	color: #FACC2E;
+	text-decoration: none;
+}
+#cabecalho{
+	background: #FACC2E;
+	text-align: center;
+	padding: 8px;
+}
+#logo, #menu{
+	padding: 10px;
+}
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	background: blue;
+}
+#area-noticias{
+	width: 660px;
+	float: left;
+}
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+.noticias{
+	padding: 15px;
+	margin: 20px 0px;
+	background: white;
+	
+}
+.postagem-lateral{
+	padding: 7px;
+	margin: 20px 0px;
+	background: #FFF;
+}
+.data-postagem{
+	font-size: 0.8em;
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+.branco{
+	color: white;
+}
+.titulo{
+	color: #FACC2E
+}
+.titulo-lateral{
+	color: #565656;
+	background: #CCC;
+	padding: 3px ;
+}
